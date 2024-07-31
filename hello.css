@@ -1,0 +1,96 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(213, 232, 240, 1);
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+<!--flex-wrap-->
+h1{
+    left: 20px;
+    background-color: rgba(0, 137, 255, 1);
+    padding: 20px;
+    margin: 0px;
+}
+.imahe {
+    position: relative;
+    display: inline;
+
+}
+
+.imahe  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+.text #mine{
+    align-content: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+.text{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(187, 22, 201, 0.4);
+    padding: 10px;
+   
+}
+
+
+.aboutme{
+    background-color: #b115d4;
+    width: 45%;
+    border: solid;
+    border-radius: 10px;
+    border-color: #bb16c9;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+#facth{
+    color: whitesmoke;
+    border-bottom-style: double ;
+    width: 100px;
+    font-size: 80px;
+    padding: none;
+    border: 10%;
+    border-width: 10px;
+}
+.fact{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+#goals{
+    background-color: rgba(0, 137, 255, 1);
+    width: 45%;
+    border: solid;
+    border-radius: 10px;
+    border-color: rgba(16, 152, 245, 1);
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+#goall{
+    color: black;
+    border-bottom-style: double ;
+    width: 280px;
+    font-size: 80px;
+    padding-left: 20px;
+    border: 10%;
+    border-width: 10px;
+    margin-left: 10px;
+}
+.goal{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
